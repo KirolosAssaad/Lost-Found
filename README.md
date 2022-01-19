@@ -47,3 +47,6 @@ stations.
 
 
 ## ERD
+
+![ERD](https://user-images.githubusercontent.com/64040952/150236115-af251d9a-de03-4d3a-81e5-e0c46390c9bc.png)
+
