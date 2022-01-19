@@ -43,4 +43,7 @@ stations.
 
 ## StoryBoard
 
+![StoryBoard](https://user-images.githubusercontent.com/64040952/150233794-78e0c60a-46b3-47ae-b05a-aa1ed1140b3e.png)
+
+
 ## ERD
