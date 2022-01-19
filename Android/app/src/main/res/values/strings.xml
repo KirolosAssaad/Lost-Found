@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">2yn2ashya2y</string>
+    <string name="Find">Find</string>
+    <string name="Add">Add</string>
+    <string name="Report">Report</string>
+
+    <string-array name="Categories">
+        <item>IDs</item>
+        <item>Keys</item>
+        <item>Technology</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="Categories2">
+        <item>None</item>
+        <item>IDs</item>
+        <item>Keys</item>
+        <item>Technology</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="IDS">
+        <item>ID 1</item>
+        <item>ID 2</item>
+    </string-array>
+
+    <string-array name="Keys">
+        <item>Key 1</item>
+        <item>Key 2</item>
+    </string-array>
+
+    <string-array name="Technology">
+        <item>Tech 1</item>
+        <item>Tech 2</item>
+    </string-array>
+
+    <string-array name="Other">
+        <item>Other 1</item>
+        <item>Other 2</item>
+    </string-array>
+
+    <string name="name">Name</string>
+    <string name="ID">SID</string>
+    <string name="phoneNumber">Phone Number</string>
+    <string name="productInfo">Prdouct Info</string>
+    <string name="yourInfo">Your Info</string>
+    <string name="submit">submit</string>
+
+</resources>

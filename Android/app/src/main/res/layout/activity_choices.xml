@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".choicesActivity"
+    android:orientation="vertical"
+    android:background="#2d423d"
+    >
+
+    <TextView
+        android:id="@+id/logout"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:drawableRight="@drawable/logout"
+        android:drawablePadding="5dp"
+        android:text="Logout"
+        android:layout_marginRight="15dp"
+        android:textColor="#f0d0a9"
+        android:textSize="20sp"
+        android:gravity="center|right"
+        android:clickable="true"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:src="@drawable/logo2"
+        android:layout_weight="1"
+        android:background="#2d423d"/>
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="#f0d0a9"
+        app:fabSize="normal"
+        android:layout_gravity="end"
+        android:layout_marginEnd="30dp"
+        app:srcCompat="@drawable/notification" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="60dp"
+        android:background="#2d423d">
+
+        <Button
+            android:id="@+id/find"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:textColor="#2d423d"
+            android:text="@string/Find"
+            android:drawableTop="@drawable/find"
+            android:gravity="center_horizontal"
+            android:backgroundTint="#f0d0a9"
+            />
+        <Button
+            android:id="@+id/add"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:textColor="#2d423d"
+            android:text="@string/Add"
+            android:drawableTop="@drawable/add"
+            android:gravity="center_horizontal"
+            android:backgroundTint="#f0d0a9"
+
+            />
+
+        <Button
+            android:id="@+id/report"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:textColor="#2d423d"
+            android:text="@string/Report"
+            android:drawableTop="@drawable/report"
+            android:gravity="center_horizontal"
+            android:backgroundTint="#f0d0a9"
+            />
+
+
+    </LinearLayout>
+</LinearLayout>
